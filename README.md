@@ -13,8 +13,8 @@ This project implements a custom Convolutional Neural Network (CNN) from scratch
 ## Installation
 **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/custom-cnn.git
-cd custom-cnn
+git clone https://github.com/Ashutosh-iitrpr/CNN_Implementation.git
+cd CNN_Implementation
 ```
 **Install the required dependencies:**
 ```bash
