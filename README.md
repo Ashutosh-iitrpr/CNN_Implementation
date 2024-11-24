@@ -22,19 +22,16 @@ pip install numpy scipy matplotlib tensorflow pillow scikit-learn
 ```
 **Usage**
 - Open the uploaded Python notebook and run the code block one after another in the given sequence.
--Input the following parametrs
--- Filter size for convolution.
--- Number of filters.
--- Pooling size.
+- Input the following parameters: Filter size for convolution, Number of filters, Pooling size.
 
 The script will train the CNN on the MNIST dataset and display training metrics (loss and accuracy) for each epoch.
 
-Making Predictions
+**Making Predictions**
 Test Dataset: After training, the script evaluates the test set and displays the accuracy.
-Interactive Input: The script includes a function to draw digits using a Tkinter-based GUI. Save the image and predict the digit:
-Draw the digit on the GUI canvas.
-Save the image.
-Call the make_predictions() function in the script and pass the saved image's file path.
+
+**Custom Input:** 
+- Draw a digit using the Tkinter-based GUI by running the interactive input function.
+- Save the drawing and use the prediction function to classify it.
 
 # File Structure
 - CNN_1.ipynb: Main Python script containing the CNN implementation and training logic.
